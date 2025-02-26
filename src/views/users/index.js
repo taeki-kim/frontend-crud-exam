@@ -16,7 +16,8 @@ function Index() {
 						<th>Email</th>
 						<th>First Name</th>
 						<th>Last Name</th>
-						<th />
+						<th>Edit</th>
+						<th>Delete</th>
 					</tr>
 				</thead>
 
@@ -27,7 +28,8 @@ function Index() {
 						<td />
 						<td>Mark</td>
 						<td>Otto</td>
-						<td />
+						<td><Button color='primary'>Edit</Button></td>
+						<td><Button color='danger'>Delete</Button></td>
 					</tr>
 					<tr>
 						<th scope='row'>2</th>
@@ -35,7 +37,8 @@ function Index() {
 						<td />
 						<td>Jacob</td>
 						<td>Thornton</td>
-						<td />
+						<td><Button color='primary'>Edit</Button></td>
+						<td><Button color='danger'>Delete</Button></td>
 					</tr>
 					<tr>
 						<th scope='row'>3</th>
@@ -43,7 +46,8 @@ function Index() {
 						<td />
 						<td>Larry</td>
 						<td>the Bird</td>
-						<td />
+						<td><Button color='primary'>Edit</Button></td>
+						<td><Button color='danger'>Delete</Button></td>
 					</tr>
 				</tbody>
 			</Table>
